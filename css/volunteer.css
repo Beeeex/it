@@ -1,0 +1,38 @@
+.volunteer {
+    padding-bottom        : 3rem;
+
+    background-attachment : fixed;
+    background-color      : rgb(30, 30, 30);
+    background-image      : url("https://images.pexels.com/photos/257904/pexels-photo-257904.jpeg");
+    background-position   : center;
+    background-repeat     : no-repeat;
+    background-size       : cover; 
+}
+
+
+
+
+/*Responsive Styles*/
+@media screen and (max-width : 1024px){
+    #volunteer {
+        color       : #E3E3E3 ;
+        text-shadow : -1.2px 0 black, 0 1.2px black, 1.2px 0 black, 0 -1.2px black ;
+    }
+    .videoyoutube {
+        height: 0;
+        overflow: hidden;
+        padding-top: 30px;
+        margin-bottom: 30px;
+        position: relative;
+        }
+        .videoyoutube iframe,
+        .videoyoutube object,
+        .videoyoutube embed {
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        }
+
+}

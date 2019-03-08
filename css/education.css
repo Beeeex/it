@@ -1,0 +1,15 @@
+.education {
+    padding-bottom        : 3rem;
+
+    background-attachment : fixed;
+    background-image      : url("https://images.pexels.com/photos/256520/pexels-photo-256520.jpeg");
+    background-position   : center;
+    background-repeat     : no-repeat;
+    background-size       : cover;
+}
+/*Responsive Styles*/
+@media screen and (max-width : 1024px){
+    .education li {
+        font-size : 1rem;
+    }
+}

@@ -1,0 +1,248 @@
+.intro h1,
+
+.intro p {
+    overflow       : visible;
+    height         : 0px;
+
+    background     : none;
+
+    pointer-events : none;
+}
+
+.intro {
+    height : 100vh ;
+    color  : #E3E3E3 ;
+}
+
+.intro h1 {
+    position    : relative;
+    display     : block;
+    z-index     : 9999;
+
+    padding-top : 8%;
+
+    font-size   : 6rem;
+    text-align  : center;
+}
+
+.intro p {
+    position   : relative;
+    display    : block;
+    z-index    : 9999;
+
+    margin-top : 10%;
+
+    font-size  : 2.8rem ;
+    text-align : center;
+}
+
+.my_logo {
+    position      : relative;
+    display       : block;
+    z-index       : 9999;
+
+    height        : 150px;
+    width         : 150px;
+    margin-top    : 7%;
+    margin-right  : auto;
+    margin-bottom : 5%;
+    margin-left   : auto;
+}
+
+/* for svg */
+/* .my_logo {
+    position      : relative;
+    display       : block;
+    z-index       : 9999;
+    height        : 200px;
+    width         : 200px;
+    margin-top    : 7%;
+    margin-right  : auto;
+    margin-bottom : 2%;
+    margin-left   : auto;
+} */
+
+
+#other_links {
+    position     : relative;
+    z-index      : 9999;
+
+    margin-right : auto;
+    margin-left  : auto;
+    color:#fff;
+}
+
+#other_links img {
+    height : 75px;
+    width  : 75px;
+}
+
+#other_links td {
+    padding : 0 15px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:#555; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 18px; /* Some padding */
+    border-radius: 99999px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+/*Responsive Styles*/
+@media screen and (max-width : 1440px){
+    .intro h1 {
+        padding-top : 5%;
+    }
+
+    .intro p {
+        margin-top : 7%;
+    }
+
+    .my_logo {
+        margin-top    : 5%;
+        margin-bottom : 3%;
+    }
+}
+
+@media screen and (max-width : 1280px){
+    .intro h1 {
+        padding-top : 8%;
+    }
+
+    .intro p {
+        margin-top : 10%;
+    }
+
+    .my_logo {
+        margin-top    : 9%;
+        margin-bottom : 6%;
+    }
+}
+
+@media screen and (max-width : 1024px){
+    .intro h1 {
+        padding-top : 20%;
+    }
+
+    .intro p {
+        margin-top : 12%;
+    }
+
+    .my_logo {
+        height        : 200px;
+        width         : 200px;
+        margin-top    : 20%;
+        margin-bottom : 30%;
+    }
+
+    #other_links img {
+        height : 80px;
+        width  : 80px;
+    }
+}
+
+@media screen and (max-width : 900px){
+    .intro h1 {
+        font-size : 5rem;
+        padding-top : 25%;
+    }
+
+    .intro p {
+        font-size : 2.5rem;
+        margin-top : 20%;
+    }
+
+    .my_logo {
+        margin-top    : 20%;
+        margin-bottom : 30%;
+    }
+    #other_links td {
+        display:inline-table;
+        margin-left:12%
+    }
+}
+
+@media screen and (max-width : 768px){
+    .intro h1 {
+        padding-top : 25%;
+        font-size   : 4.5rem;
+    }
+
+    .my_logo {
+        margin-bottom : 20%;
+    }
+
+    #other_links td {
+        display:inline-table;
+        margin-left:10%
+    }
+}
+
+@media screen and (max-width : 425px){
+    .intro h1 {
+        padding-top : 25%;
+        font-size   : 3rem;
+    }
+
+    .intro p {
+        margin-top : 15%;
+        font-size  : 1.5rem;
+    }
+
+    .my_logo {
+        height        : 125px;
+        width         : 125px;
+        margin-top    : 30%;
+        margin-bottom : 30%;
+    }
+
+    #other_links img {
+        height : 50px;
+        width  : 50px;
+    }
+    #other_links td {
+        display:inline-table;
+        margin-left:30px
+    }
+}
+
+@media screen and (max-width: 320px){
+    .intro h1 {
+        padding-top : 30%;
+        font-size   : 2.5rem;
+    }
+
+    .intro p {
+        margin-top : 20%;
+    }
+
+    .my_logo {
+        height        : 100px;
+        width         : 100px;
+        margin-top    : 20%;
+        margin-bottom : 20%;
+    }
+
+    #other_links img {
+        height : 40px;
+        width  : 40px;
+    }
+    #other_links td {
+        display:inline-table;
+        margin-left:30px
+    }
+}

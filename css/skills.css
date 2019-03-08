@@ -1,0 +1,10 @@
+.skills {
+    padding-bottom        : 3rem;
+
+    /*background-color : rgb(30, 30, 30);*/
+    background-attachment : fixed;
+    background-image      : url("https://images.pexels.com/photos/1073052/pexels-photo-1073052.jpeg");
+    background-position   : center;
+    background-repeat     : no-repeat;
+    background-size       : cover;
+}

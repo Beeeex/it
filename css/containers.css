@@ -1,0 +1,222 @@
+.box {
+    width            : 75%;
+    margin-top       : 2rem;
+    margin-right     : auto;
+    margin-bottom    : 2rem;
+    margin-left      : auto;
+    padding-top      : 2rem;
+    padding-bottom   : 2rem;
+    padding-right    : 4rem;
+    padding-left     : 4rem;
+
+    background-color : rgba(40, 40, 40, .95);
+    font-size        : 1.2rem;
+    font-weight      : lighter;
+    color            : #D3D3D3 ;
+    line-height      : 1.75;
+    border-color     : rgb(50, 50, 50);
+    border-style     : solid;
+    border-width     : 2px;
+}
+
+.light-box {
+    width            : 75%;
+    margin-top       : 2rem;
+    margin-right     : auto;
+    margin-bottom    : 2rem;
+    margin-left      : auto;
+    padding-top      : 2rem;
+    padding-bottom   : 2rem;
+    padding-right    : 4rem;
+    padding-left     : 4rem;
+
+    background-color : rgba(50, 50, 50, .95);
+    font-size        : 1.2rem;
+    font-weight      : lighter;
+    color            : #D3D3D3 ;
+    line-height      : 1.75;
+    border-color     : rgb(100, 100, 100);
+    border-style     : solid;
+    border-width     : 2px;
+}
+
+.big-img-wrapper {
+    width            : 75%;
+    margin-top       : 2rem;
+    margin-right     : auto;
+    margin-bottom    : 2rem;
+    margin-left      : auto;
+
+    background-color : rgba(40, 40, 40, .98);
+    font-size        : 1.2rem;
+    font-weight      : lighter;
+    color            : #D3D3D3 ;
+    line-height      : 1.75;
+    border           : 3px solid rgb(30, 30, 30);
+}
+
+.sub-title {
+    padding : 15px;
+}
+
+.logo {
+    vertical-align : middle;
+
+    width          : 25%;
+
+    text-align     : center;
+    border         : 3px solid rgb(30, 30, 30);
+}
+
+td.logo img {
+    height  : 100px;
+    width   : 100px;
+    padding : 15px;
+}
+
+.text {
+    padding : 15px;
+    border  : 3px solid rgb(30, 30, 30);
+}
+
+.tab {
+    overflow         : hidden;
+    margin-top       : 1rem;
+
+    background-color : rgb(100, 100, 100);
+    color            : #D3D3D3;
+    border           : 1px solid #D3D3D3;
+}
+
+.tab .tablinks {
+    color : #D3D3D3;
+}
+
+.tab button {
+    float            : left;
+
+    width            : 10%;
+    padding          : 14px 16px;
+
+    cursor           : pointer;
+    background-color : inherit;
+    font-size        : 1rem;
+    color            : #D3D3D3;
+    border           : none;
+    border-right     : 1px solid #D3D3D3;
+    outline          : none;
+
+    transition       : 0.5s;
+}
+
+.tab button:hover {
+    background-color : #D3D3D3;
+    color            : rgb(30,30,30);
+}
+
+.tab button.active {
+    background-color : #D3D3D3;
+    color            : rgb(30,30,30);
+}
+
+.tabcontent {
+    display    : none;
+
+    padding    : 6px 12px;
+
+    border     : 1px solid #ccc;
+    border-top : none;
+}
+
+.tabcontent a {
+    color           : #D3D3D3 ;
+    text-decoration : underline;
+
+    transition      : .5s;
+}
+
+.tabcontent a:hover {
+    color           : white;
+    text-decoration : underline;
+
+    transition      : .5s;
+}
+
+/*Responsive Styles*/
+@media screen and (max-width : 1024px){
+    .box, .light-box {
+        width         : 85%;
+        margin-top    : 1rem;
+        margin-bottom : 1rem;
+        padding       : 2% 3%;
+    }
+
+    .tab {
+        border-bottom : none;
+    }
+
+    .tab button {
+        width         : 100%;
+        padding       : 5px 0;
+
+        font-size     : 18px;
+        border-right  : none;
+        border-bottom : 1px solid #D3D3D3;
+    }
+
+    table.big-img-wrapper {
+        width     : 95%;
+        font-size : 1rem;
+        padding : 10px;
+        
+    }
+    
+    td.logo img {
+        height  : 75px;
+        width   : 75px;
+        padding: 10px;
+    
+    }
+}
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+        display: block; 
+	}
+		
+	td { 
+		/* Behave  like a "row" */
+		border: none;
+		position: relative;
+		
+	}
+	
+	td:before { 
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px;
+		white-space: nowrap;
+    }
+
+    td.logo
+    {
+        width:100%;
+        
+    }
+    td.logo img
+    {
+        text-align:center
+    }
+
+    #intro_title{
+        margin-top:30%;
+    }
+}

@@ -1,0 +1,51 @@
+/* Modal Header */
+.modal-header {
+    padding          : 2px 16px;
+
+    background-color : #5cb85c;
+    font-size        : 2rem;
+    color            : white;
+    text-align       : center;
+}
+
+/* Modal Body */
+.modal-body {
+    margin-top     : 2rem;
+    padding        : 2px 16px;
+    padding-top    : 2rem;
+    padding-bottom : 2rem;
+
+    font-size      : 1.2rem;
+    text-align     : center;
+}
+
+/* Modal Content */
+.modal-content {
+    position                   : relative;
+    display                    : none;
+
+    width                      : 50%;
+    margin                     : auto;
+    margin-top                 : 2rem !important;
+    padding                    : 0;
+
+    background-color           : #fefefe;
+    border                     : 1px solid #888;
+    box-shadow                 : 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+
+    -webkit-animation-name     : animatetop;
+    animation-name             : animatetop;
+    -webkit-animation-duration : 0.4s;
+    animation-duration         : 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}

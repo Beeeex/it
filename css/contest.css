@@ -1,0 +1,13 @@
+.contest {
+    padding-bottom        : 3rem;
+
+    background-attachment : fixed;
+    background-image      : url("https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg");
+    background-position   : center;
+    background-repeat     : no-repeat;
+    background-size       : cover;
+}
+
+a.contest_link {
+    color: white ;
+}
